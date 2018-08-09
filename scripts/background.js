@@ -4,13 +4,13 @@ const BADGE = 'AEM';
 const AEM_URLS = 'aemUrls';
 
 function saveUrl(url){
-  chrome.storage.local.get([AEM_URLS], function(result) {
+  chrome.storage.sync.get([AEM_URLS], function(result) {
     var array = (result[AEM_URLS]) ? result[AEM_URLS] : [];
     if(!array.includes(url)) {
       array.push(url);
       array.sort();
     }
-    chrome.storage.local.set({ "aemUrls": array }, function(){
+    chrome.storage.sync.set({ "aemUrls": array }, function(){
       console.log(url + ' saved.');
     });
   });
