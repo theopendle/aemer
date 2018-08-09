@@ -7,12 +7,12 @@ $('document').ready(function(){
       for (var i = 0; i < sites.length; i++) {
         $('#site-list').append('<li><a href="http://' + sites[i] + '" target="_blank">' + sites[i] + '</a></li>');
       }
-      $('#site-list').removeAttr('hidden');
-      $('#no-list').attr('hidden', '');
+      $('#sites').removeAttr('hidden');
+      $('#no-sites').attr('hidden', '');
 
     } else {
-      $('#site-list').attr('hidden', '');
-      $('#no-list').removeAttr('hidden');
+      $('#sites').attr('hidden', '');
+      $('#no-sites').removeAttr('hidden');
     }
   });
 });

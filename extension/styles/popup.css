@@ -2,6 +2,10 @@ html {
   width: 250px;
 }
 
+body {
+  background-color: #282C34;
+}
+
 h1 {
   font-size: 1.6em;
   color: #9DA5B4;
@@ -23,21 +27,18 @@ a:hover {
   text-decoration: none;
 }
 
-.title-row {
+#title {
   background-color: #21252B;
   border-bottom: 1px solid #3B4048;
 }
 
-.scrollable {
+#sites {
   padding-top: 10px;
-  height: 500px;
+  max-height: 500px;
   overflow-y: scroll;
-  background-color: #282C34;
 }
 
-#no-list {
+#no-sites {
   padding-top: 10px;
-  height: 500px;
-  background-color: #282C34;
   color: #575a61;
 }
