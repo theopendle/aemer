@@ -7,6 +7,7 @@
   <!-- CSS -->
 	<link rel="stylesheet" href="../lib/bootstrap.css">
   <link rel="stylesheet" href="../styles/popup.css">
+  <link rel="stylesheet" href="../styles/scrollbar.css">
 
   <!-- JS -->
   <script src="../lib/jquery-3.3.1.slim.min.js"></script>
@@ -16,13 +17,15 @@
   <body>
     <div class="container-fluid">
       <div class="row title-row">
-        <h1 class="col-12">AEM Websites:</h1>
+        <h1 class="col-12">AEM Websites</h1>
       </div>
       <div class="row scrollable">
         <div class="col-12">
-          <p id="no-list">No AEM websites</p>
           <ul id="site-list"></ul>
         </div>
+      </div>
+      <div class="row" id="no-list">
+        <p><b>None</b></p>
       </div>
     </div>
   </body>

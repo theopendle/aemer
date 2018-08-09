@@ -14,7 +14,13 @@ ul {
 }
 
 a {
+  font-size: 0.8em;
   color: #9DA5B4;
+}
+
+a:hover {
+  color: #c0c8d7;
+  text-decoration: none;
 }
 
 .title-row {
@@ -23,8 +29,15 @@ a {
 }
 
 .scrollable {
-  padding-top: 20px;
+  padding-top: 10px;
   height: 500px;
   overflow-y: scroll;
   background-color: #282C34;
+}
+
+#no-list {
+  padding-top: 10px;
+  height: 500px;
+  background-color: #282C34;
+  color: #575a61;
 }
