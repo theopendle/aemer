@@ -6,6 +6,7 @@
 
   <!-- CSS -->
 	<link rel="stylesheet" href="../lib/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/popup.css">
   <link rel="stylesheet" href="../styles/scrollbar.css">
 
@@ -27,6 +28,22 @@
       <div class="row" id="no-sites">
         <p class="col-12"><b>None</b></p>
       </div>
+			<div class="row" id="io">
+				<div class="col-6" id="download">
+					<a id="download-link"
+						title="Download list to text file"
+						href="data:text/plain;charset=utf-8,"
+						download>
+						<i class="fas fa-arrow-circle-down" id="download-icon"></i>
+					</a>
+				</div>
+
+				<div class="col-6" id="upload">
+					<i class="fas fa-arrow-circle-up upload-icon" id="upload-icon"></i>
+					<input id="upload-input"
+						type="file"/>
+				</div>
+			</div>
     </div>
   </body>
 </html>

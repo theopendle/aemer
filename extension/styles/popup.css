@@ -42,3 +42,31 @@ a:hover {
   padding-top: 10px;
   color: #575a61;
 }
+
+#io {
+  height: 50px;
+  text-align: center;
+}
+
+#download {
+  padding-left: 15px;
+}
+
+#download-icon {
+  font-size: 2em;
+  color: #9DA5B4;
+}
+#upload-icon {
+  font-size: 1.6em;
+  color: #9DA5B4;
+}
+
+#upload {
+  padding-right: 15px;
+}
+
+#upload-input {
+  opacity: 0;
+  position: absolute;
+  left: 0px
+}
